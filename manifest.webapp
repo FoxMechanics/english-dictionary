@@ -1,0 +1,15 @@
+{
+    "name": "English Dictionary",
+    "description": "An English Dictionary Containing over 176 thousand words. (offline)",
+    "launch_path": "/index.html",
+    "icons": {
+        "32": "/images/dictionary.png",
+        "128": "/images/dictionary-128x.png",
+        "256": "/images/dictionary-256x.png"
+    },
+    "developer": {
+        "name": "Znox Info tec",
+        "url": "http://anichakraborty.me/"
+    },
+    "default_locale": "en"
+}  

@@ -1,0 +1,1 @@
+compass compile && mkdir -p builds && zip -r builds/dictionary.zip files images scripts styles index.html manifest.webapp

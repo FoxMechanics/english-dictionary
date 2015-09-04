@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	overflow: hidden;
+}
+
+html, body {
+	background: $home-bg;
+	color: $text-color;
+	font-family: sans-serif;
+}
+
+.rem {
+	visibility: hidden;
+	z-index: -9999;
+	position: absolute;
+	top: -1em;
+	left: -1em;
+	height: 1em;
+	width: 1em;
+}
+
+.inactive {
+	height: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+.panels > div {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
