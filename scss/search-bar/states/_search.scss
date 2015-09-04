@@ -1,0 +1,6 @@
+.search.search-mode {
+	top: 0 !important;
+	width: 100%;
+
+	@include single-box-shadow(0, 0.1em, 0.2em, 0, rgba(0, 0, 0, 0.1));
+}
